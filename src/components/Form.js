@@ -116,16 +116,16 @@ const BookingForm = () => {
             <label htmlFor="RoomType">
               Select Room Type:
               <select multiple={true} value={rooms} onChange={handleRoom}>
-                <option value="61f9601b2633cb279469d44a">
+                <option value="61f97652dfcf27cab603b620">
                   DELUX DOUBLE ROOM
                 </option>
-                <option value="61f962012633cb279469e363">
+                <option value="61f977a0dfcf27cab6055f38">
                   DELUX SINGLE ROOM
                 </option>
-                <option value="61f95e4a2633cb27946946df">
+                <option value="61f97584dfcf27cab602aa1e">
                   LUXURY SINGLE ROOM
                 </option>
-                <option value="61f9610c2633cb279469e360">
+                <option value="61f97772dfcf27cab60525d9">
                   LUXURY DOUBLE ROOM
                 </option>
               </select>
