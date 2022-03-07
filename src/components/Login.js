@@ -4,7 +4,6 @@ import { GoogleLogin, GoogleLogout } from 'react-google-login';
 const GOOGLE_CLIENT_ID="291778131178-t1v2iod1cr1llsk5caja33egb5pcpdoi.apps.googleusercontent.com"
 
 function Login({showloginButton, setShowloginButton,showlogoutButton, setShowlogoutButton}) {
-
     
 
     const onLoginSuccess = (res) => {
